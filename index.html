@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>OpenVillage - A massively distributed R&D lab for the post-job economy</title>
+	<meta name="author" content="Edgeryders EU" />
+	<meta name="description" content="A massively distributed R&D lab for the post-job economy." />
+	<meta name="keywords"  content="openvillage,edgeryders,opencare,coworking,mena,r&d,social innovation" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+
+	<script src="scripts/jquery.min.js"></script>
+
+	<script type="text/javascript" src="scripts/jquery.pagepiling.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			* Plugin intialization
+			*/
+	    	$('#pagepiling').pagepiling({
+	          	direction: 'horizontal',
+
+	    		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8','page9','page10','page11','page12','page13','page14','page15','page16','page17','page18','page19','page20'],
+			    sectionsColor: ['#000', '#25958e', '#39C', '#fff','#fff','#fff','#fff','#fff','#fff','#5c00ff','#5c00ff','#000','#000','#fff','#fff','#fff','#fff','#fff','#fff','#fff','#fff','#fff'],
+			    navigation: {
+			    	'position': 'right',
+			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4', 'Page 5', 'Page 6', 'Page 7', 'Page 8', 'Page 9', 'Page 10', 'Page 11', 'Page 12', 'Page 13', 'Page 14', 'Page 15', 'Page 16', 'Page 17', 'Page 18', 'Page 19', 'Page 20',]
+			   	},
+			    afterRender: function(){
+			    	$('#pp-nav').addClass('custom');
+			    },
+			    afterLoad: function(anchorLink, index){
+			    	if(index>1){
+			    		$('#pp-nav').removeClass('custom');
+			    	}else{
+			    		$('#pp-nav').addClass('custom');
+			    	}
+			    }
+			});
+	    });
+    </script>
+
+
+    <style>#section1 img{
+		margin: 20px 0;
+		opacity: 0.7;
+	}
+	/* colors
+	 * --------------------------------------- */
+	#colors2,
+	#colors3{
+		position: absolute;
+		height: 163px;
+		width: 362px;
+		z-index: 1;
+		background-repeat: no-repeat;
+		left: 0;
+		margin: 0 auto;
+		right: 0;
+	}
+	#colors2{
+		background-image: url(http://openvillage.edgeryders.eu/join/imgs/colors2.gif);
+		top:0;
+	}
+	#colors3{
+		background-image: url(http://openvillage.edgeryders.eu/join/imgs/colors3.gif);
+		bottom:0;
+	}
+
+	#retirement {
+		background: url('img/retirement.jpg');
+	}
+
+
+	/* Overwriting fullPage.js tooltip color
+	* --------------------------------------- */
+	#pp-nav.custom .pp-tooltip{
+		color: #AAA;
+	}
+
+#section14 {
+	background-image: url('img/0.jpg');
+	background-size: cover;
+	background-position-x: -100px;
+}
+</style>
+
+</head>
+<body>
+
+
+
+	<div id="pagepiling">
+		<ul id="menu" style="margin: 10px !important">
+			<a href='http://openvillage.edgeryders.eu/join/edgeryders.eu'><img src="img/12.png" height="70px; "></a>
+
+		</ul>
+	    <div class="section">
+	    	<div class="intro">
+
+					<p style="font-family: Saira; line-height: 55px; color: #00ccff !important; font-size: 45px;">
+
+After the festival, where do we go from here?
+</p>
+
+					<img src="img/11.png" height="80px" style="margin-top: 70px; float: left; margin-left:160px"/>
+
+	    		<p style="font-family: Saira; line-height: 45px; clear: both; padding-top: 10px; width: 440px">
+
+
+A massively distributed R&amp;D lab for the post-job economy
+<br /><a style="color: #279fd7; top:90px !important" href="../index.html">openvillage.edgeryders.eu</a>
+
+</p>
+	    	</div>
+	    </div>
+	  
+	
+	  
+	    <div class="section" id="section3"  id="retirement">
+	    	<div class="intro" style="width: 100% !important; float: left; background-image: url(img/retirement.png); background-repeat: no-repeat; background-position: right -130px center;  height: 100%; background-size: contain;">
+					<h1 style="color: #ffcc9c; margin-top: -120px; font-size:62px;">Welcome to retirement</h1>
+					<p style="padding-right: 200px; margin-top: -30px;">Congratulations, you've made it to retirement age, and without a pension or investment plan, you'll have to hack your way through your golden years like you did your youth. <br /><br /><i style="">Have no fear</i>, with a little bit of innovative thinking and peer collaboration, you can seamlessly cruise through your elder dementia in style!</p>
+	    	</div>
+	    </div>
+			<div class="section" id="section4"  id="retirement">
+	    	<div class="intro">
+	    		<h1 style="width: 80%;  margin-top: -160px; font-size:62px;">'Outsourcing Eldercare'</h1>
+	    		<p style="width: 80%; color: white !important; margin-top: -30px; font-size: 23px;">Many precarious workers do manage to make it to retirement, and it just might happen to you. Some Americans have turned to <i>outsourcing eldercare</i> by shipping their parents <a style="color: white; text-decoration: underline;"href='http://www.theguardian.com/money/2009/may/31/elderly-care-affordable-india'>off to India</a>, to live like a Maharaja on $2000/month. <br />In Japan, the film "<a style="color: white; text-decoration: underline;" href='http://web.archive.org/web/20150509194903/http://en.wikipedia.org/wiki/House_of_Himiko'>Mezon do Himiko</a>" tells the story of a retirement home for elderly transvestites and homosexuals. They managed to fund their retirement from a successful Tokyo nightclub and wealthy donors.
+</p>
+
+					<div class="images" style="margin-top:20px">
+					<img src="img/3.jpg" class="one" style="float:right; background-position: -60px; "/>
+					<img src="img/2.jpg" class="two" style="float:right; background-position: -60px;"/>
+
+					<img src="img/1.png" class="one" height="335px" style="float:right; background-position: -60px;"/>
+					</div>
+
+
+	    	</div>
+
+	    </div>
+
+			<div class="section" id="section5"  id="retirement"  style="background: url(img/4.jpg) no-repeat right bottom">
+	    	<div class="intro">
+
+	    		<p style="width: 80%; color: black !important; margin-top: -120px">But are <a style="font-weight: 800; text-decoration:none; " href='https://edgeryders.eu/t/stepping-outside-or-a-job-for-a-hacker/3901/3'>Ledgestriders<span style='font-family: Helvetica, sans;'>™</span></a> so well prepared for their retirement? <br /><br />Do you really think people will want to read your funding applications when you're wearing a diaper? <br /><br /><b>It's time to start exploring options for people who aren't part of the rank and file society before it's too late.</b>
+</p>
+
+	    	</div>
+
+	    </div>
+
+			<div class="section" id="section6"  id="retirement" >
+				<div class="intro">
+<img src="img/5.jpg"  style="margin-top: -110px; width: 20% !important;"/>
+					<p style="height: 20%; width: 70%; color: black !important;">But you are now 96 years old and your <a href="http://web.archive.org/web/20150509194903/http://www.independent.co.uk/life-style/gadgets-and-tech/japanese-robot-with-a-heart-will-care-for-the-elderly-and-children-9491819.html">robotic care assistant</a> <i>accidentally sucked up your dentures</i> into the #opensource vacuum cleaner, because the IoT fridge and stove were chatting away and inadvertently knocked the robot offline.
+	</p>
+
+				</div>
+
+			</div>
+
+			<div class="section" id="section7"  id="retirement" >
+				<div class="intro">
+			<img src="img/6.jpg" height="300px" style="margin-top: -50px;"/>
+
+
+					<p style="width: 80%; color: black !important; margin-top: 30px; ">It's really not a problem because a neighbour in your HackSpace has a 3D printer and (after downloading a free 3D file off <a href='http://web.archive.org/web/20150509194903/http://www.thingiverse.com/'>Thingiverse</a>) you manage to print a <a href='https://hbr.org/2014/10/my-dentist-3d-printed-my-crown/'>new set of teeth</a>.
+			</p>
+
+				</div>
+
+			</div>
+
+
+			<div class="section" id="section8"  id="retirement" >
+				<div class="intro">
+
+						<img src="img/7.jpg" height="300px" style="margin-top: -50px;"/>
+
+					<p style="width: 80%; color: black !important; margin-top: 30px; ">Unfortunately, they are not the right size and you wind up gumming your food at that evening's <a href='http://www.shareable.net/blog/disco-soup-fighting-food-waste-to-a-disco-groove'>Disco Soup event</a>, getting chunks of organic radish all over your sustainable <a href='http://edition.cnn.com/2012/07/05/world/europe/qmilch-milk-sustainable-fashion/index.html'>milk-fiber</a> bib.
+			</p>
+
+				</div>
+
+			</div>
+
+			<div class="section" id="section9"  id="retirement" >
+				<div class="intro">
+
+						<img src="img/8.jpg" height="300px" style="margin-top: -50px;"/>
+
+					<p style="width: 80%; color: black !important; margin-top: 30px; ">And since your robotic helper is on the fritz, you decide to wash yourself off in the hipster bathing facility but slip and break your hip.
+
+			</p>
+
+				</div>
+
+			</div>
+
+
+			<div class="section" id="section10"  id="retirement" >
+				<div class="intro">
+
+						<img src="img/9.jpg" height="300px" style="margin-top: -50px;"/>
+
+					<p style="width: 80%; color: black !important; margin-top: 30px; ">Again, your mates have this problem covered and start using <a href='http://www.businessinsider.com/3d-printing-can-create-replacement-bones-2014-8'>3D printed bones</a> to grow you a new leg. Unfortunately, the operation doesn't go well and you get an infection. <br /> <br />However there is a cure for those with sufficient computational capacity: you can manufacture your own <a href='http://www.wsj.com/articles/francis-collins-says-medicine-in-the-future-will-be-tailored-to-your-genes-1404763139'>patent-free medicine</a> based on your individual DNA.</p>
+
+				</div>
+
+			</div>
+
+			<div class="section" id="section11"  id="retirement" >
+				<div class="intro">
+
+<h1 style="width: 80%; padding-top: 80px;">Hooray! You win!</h1>
+					<p style="width: 80%; color: white !important; margin-top: 30px; ">You have advanced to the next level of retirement: that of constantly badgering your kids to come and visit you! <br /><br /><i>But not everyone will be so lucky in the future, so it is time to explore the different possibilities that can be made to exist for people outside the "system".</i> </p>
+
+
+				</div>
+
+			</div>
+
+			<div class="section" id="section12"  id="retirement" >
+				<div class="intro">
+
+
+					<ul style="font-size: 33px; line-height: 42px;">
+<li>What options can we as a community build for people to do well together outside the traditional ways of organising life and work? </li>
+<li>Which legal and financial frameworks can we adopt/design to enable this? </li>
+<li>What solutions are people in the community already working on and how can we help one another to make them accessible and sustainable?</li>
+<li>How can actors in different industries be relevant in our lives (or not)?</li>
+<li>What (if any) relationship do different members want  with established actors and how can we them achieve this?</li>
+</ul>
+
+				</div>
+
+			</div>
+
+			<div class="section" id="section13"  id="retirement" >
+				<div class="intro">
+
+					<img src="img/10.png" height="280px" style="margin-top: -50px;"/>
+
+					<p style="width: 80%; color: white !important; margin-top: 0px; line-height: 50px; font-size: 2.1em; ">With OpenVillage we are creating a network of houses where you can give and receive support while working on the projects that matter to you. <br /><br />So we invite you on a journey to make "the good life" happen - by collaborating in a free and open way on groundbreaking ideas for prosperous lives full of meaning, love and mutual respect...</p>
+
+				</div>
+
+			</div>
+
+			    <div class="section" id="section14"  id="retirement">
+	    	<div class="intro" style="width: 47% !important; background: rgba(255, 255, 255, 0.83) ; margin: 100px; height: auto; padding: 20px !important; border-radius: 5px">
+					<h5 style="color: black;font-size:42px; width: 100%; font-family: exo; margin: 0px !important; padding: 20px; text-align: left">We met, we spoke, now we build.</h1>
+					<p style="padding: 10px 20px !important; color: black !important; width: 96%; margin-top: -20px !important; font-size: 22px">"We have all contributed to the journey to OpenVillage that started months ago: the community members, the OpenCare project and the Fellows. 
+						
+But Edgeryders has contributed by far the most and saw the need to get people moving in the same direction. I can’t imagine many would disagree with the value they have gotten out of it so far. Only now, while synthesizing notes several days later, it dawns on me. Everything that has been done, where Edgeryders took a leading role, has been the investment. Will we put to use what has been built?"
+<br />- <a href="https://edgeryders.eu/t/openvillage-sharing-capacity/7586">@WinniePoncelet</a>
+
+</p>
+	    	</div>
+	    </div>
+	  
+
+
+
+<div class="section" id="section18"  id="retirement" >
+				    		<div class="intro">
+	<h1 style="width: 80%;  color: black; margin-top: -260px; font-size:62px;">Fill in <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2oHyHn3RNCYxpLm_-AdP_0qSH2OK1dWHFigMTPOUuwjLQBw/viewform">this form</a>..</h1>
+	<p style="color: black !important; width: 100%">And tell us in which ways you can contribute.</p>
+<p style="width: 80%; color: gray !important; margin-top: 80px; font-size: 16px ">Credits: Nadia EL-Imam, Jeff Andreoni (Creative Writing), Owen Gothill (Design)
+
+			</p>
+			</div></div>
+			
+
+			
+			
+			<div class="section" id="section21"  id="retirement" >
+				<div class="intro" id='press'>
+
+					<a class="box" href="http://nova.ilsole24ore.com/progetti/soluzioni-di-cura-in-co-design/">
+					        <div class="content">
+									<img src="img/14.png" height="60px" style="padding-right: 20px;"/>
+								<h2>
+									"DIY and Open Source care solutions"
+								</h2>
+								<span class="date">7 May 2017</span>
+								<p class="description" style="color: black !important">
+									<br />"Whether it is a ramp for disabled people or self-produced insulin, OpenCare's projects arise from collaboration between users and innovators"
+								</p>
+
+					    	</div>
+						</a>
+
+						<a class="box" href="http://www.nesta.org.uk/blog/era-development-mutants">
+										<div class="content" style="">
+											<img src="img/15.png" height="95px" style="position: relative;top: -28px; padding: 0 !important; margin: 0 !important; overflow: visible;"/>
+									<h2 style="margin-top:-24px;">
+										"The era of development mutants"
+									</h2>
+									<span class="date">11 April 2016</span>
+									<p class="description" style="color: black !important; margin-top:0px">
+										"Social movements led by self-organising citizens are becoming the cutting edge of development. Establishing effective partnerships with them requires abandoning much of the implicit paternalism that informs development work"
+									</p>
+
+									</div>
+							</a>
+
+							<a class="box" href="https://www.theguardian.com/local-government-network/2014/apr/28/eleven-tips-councils-thinking-creatively-adult-social-care">
+											<div class="content" style="">
+												<img src="img/16.jpg" height="50px" style="position: relative;top: 10px; padding: 0 !important; margin: 0 !important; overflow: visible;"/>
+										<h2 style="margin-top:20px; font-size: 1.3em;">
+											"Eleven tips for councils on thinking creatively about adult social care"
+										</h2>
+										<span class="date" style="position: relative; top: -4px">28 April 2014</span>
+										<p class="description" style="color: black !important; margin-top:-5px">
+											"They have brought together a whole range of people mainly (but not all!) young and radical. They are doing some incredible work there. Am sorely tempted to head off there and alter the age demographic!"
+										</p>
+
+										</div>
+								</a>
+
+								<a class="box" href="https://www.thenation.com/article/can-monasteries-be-model-reclaiming-tech-culture-good/">
+												<div class="content" style="">
+													<img src="img/17.png" height="50px" style="position: relative;top: 10px; padding: 0 !important; margin: 0 !important; overflow: visible;"/>
+											<h2 style="margin-top:20px; font-size: 1.3em;">
+												"Can Monasteries Be a Model for Reclaiming Tech Culture for Good?"
+											</h2>
+											<span class="date" style="position: relative; top: -4px">27 August 2014</span>
+											<p class="description" style="color: black !important; margin-top:25px">
+												"What united [Edgeryders] was not a political ideology, but the dead-end conditions of austerity and the hope of figuring out better ways forward."
+											</p>
+
+											</div>
+									</a>
+
+									<a class="box" href="https://www.newyorker.com/magazine/2015/04/27/a-cave-with-a-view">
+													<div class="content">
+													<img src="img/18.jpg" height="60px" style="margin-top: -20px;"/>
+												<h2 style="margin-top:20px; font-size: 1.3em;">
+													"A Cave with a View. Matera, once seen as uncivilized, is now prized for its ancient ways."
+												</h2>
+												<span class="date">27 April 2015</span>
+												<p class="description" style="color: black !important">
+													"a group of self-described “civic hackers” who run a “social clinic” that embeds “skilled individuals within communities that could benefit from their presence."
+												</p>
+
+												</div>
+										</a>
+
+										<a class="box" href="https://krautreporter.de/111--wenn-hacktivisten-wie-monche-leben">
+														<div class="content">
+														<img src="img/19.png" height="60px" style="margin-top: -20px;"/>
+													<h2 style="margin-top:20px; font-size: 1.7em;">
+														"When hacktivists live like monks"
+													</h2>
+													<span class="date">12 November 2014</span>
+													<p class="description" style="color: black !important">
+														"..steps towards solving the major problems plaguing small towns such as Matera: massive land run-off, reduction of social services in the wake of European austerity measures, and not least unused housing stock."
+
+													</p>
+
+													</div>
+											</a>
+
+										</div>
+
+				</div>
+
+				<div class="section" id="section22"  id="retirement" >
+					<div class="intro" id='press'>
+
+
+				<a class="box" href="http://magazine.mutinerie.org/edgeryders-unmonastery-coworking/">
+								<div class="content">
+								<img src="img/20.png" height="60px" style="margin-top: -20px;"/>
+							<h2 style="margin-top:20px; font-size: 1.3em;">
+								"Mutiny at UnMonastery, coworking in the land of Edgeryders"
+							</h2>
+							<span class="date">11 November 2013</span>
+							<p class="description" style="color: black !important">
+								"..an agile organization of individuals pooling know-how and professional networks at the service of social innovation."
+
+							</p>
+
+							</div>
+					</a>
+
+					<a class="box" href="https://16.re-publica.de/16/session/care-communities-non-zero-sum-provision-health-and-social-care">
+									<div class="content">
+									<img src="img/21.png" height="60px" style="margin-top: -20px;"/>
+								<h2 style="margin-top:20px; font-size: 1.3em;">
+									"Care by communities: non-zero sum provision of health and social care"
+								</h2>
+								<span class="date">4 May 2016</span>
+								<p class="description" style="color: black !important">
+									"We explore amazing care services that communities are providing - right now  - to people that the state and private business have let down."
+
+								</p>
+
+								</div>
+						</a>
+
+						<a class="box" href="http://www.dazeddigital.com/artsandculture/article/22717/1/the-unmonastery-a-commune-for-the-internet-age">
+										<div class="content">
+										<img src="img/22.png" height="60px" style="margin-top: -20px;"/>
+									<h2 style="margin-top:20px; font-size: 1.3em;">
+										"The unMonastery: a commune for the internet age"
+									</h2>
+									<span class="date">25 November 2014</span>
+									<p class="description" style="color: black !important; margin-top:20px; ">
+										"Edgeryders built an Internet commune in Matera, a city similar to Petra in Jordan. They are both among the oldest inhabited settlements in the world."
+
+									</p>
+
+									</div>
+							</a>
+
+							<a class="box" href='http://www.opengovasia.com/articles/7815-undp-innovation-facility-driving-multiple-projects-in-indonesia-through-broad-partnerships'>
+											<div class="content">
+											<img src="img/23.png" height="60px" style="margin-top: -20px;"/>
+										<h2 style="margin-top:20px; font-size: 1.3em;">
+											"UNDP Innovation Facility driving multiple projects in Indonesia through broad partnerships"
+										</h2>
+										<span class="date">18 July 2017</span>
+										<p class="description" style="color: black !important; margin-top:20px; ">
+											"Edgeryders is a leading innovation partner of UNDP for testing new ways of working."
+
+										</p>
+
+										</div>
+								</a>
+
+								<a class="box" href="https://www.wired.de/collection/life/das-kommt-heraus-wenn-tech-utopisten-ein-kloster-grunden">
+												<div class="content">
+												<img src="img/24.png" height="40px" style="margin-top: -10px;"/>
+											<h2 style="margin-top:30px; font-size: 1.3em;">
+												"No patriarchy. No hierarchy. No God." - unMonastery is a monastery for tech utopians"
+											</h2>
+											<span class="date">29 January 2015</span>
+											<p class="description" style="color: black !important; margin-top:20px; ">
+				<span class="link">Click to read more >> </span>
+											</p>
+
+											</div>
+									</a>
+
+									<a class="box">
+													<div class="content" href="http://www.di.se/artiklar/2014/4/10/nytankarens-dromregering/">
+													<img src="img/25.png" height="40px" style="margin-top: -10px;"/>
+												<h2 style="margin-top:30px; font-size: 1.3em;">
+													"New Thinker's Dream Government"
+												</h2>
+												<span class="date">10 April 2014</span>
+												<p class="description" style="color: black !important; margin-top:20px; ">
+													"Our co-founder Nadia EL-Imam was named Minister of Labour in an ideal government for Sweden in the country's leading financial newspaper."
+
+												</p>
+
+												</div>
+										</a>
+
+
+			</div></div>
+
+
+			<div class="section" id="section23"  id="retirement" >
+				<div class="intro" id='press'>
+
+			<a class="box" href="http://www.huffingtonpost.it/andrea-latino/la-politica-tecnologica_b_3382521.html">
+							<div class="content">
+							<img src="img/26.jpg" height="40px" style="margin-top: -10px;"/>
+						<h2 style="margin-top:20px; font-size: 1.3em;">
+							"La Politica Tecnologica"
+						</h2>
+						<span class="date">4 June 2013</span>
+						<p class="description" style="color: black !important; margin-top:40px; ">
+							"Now imagine those data available to ministries, entrusted to qualified young people of our best faculties, and listening to citizens through massive open collaboration, on the model of the European Edgeryders project ."
+
+						</p>
+
+						</div>
+				</a>
+	</div>	</div>
+
+</body>
+</html>
